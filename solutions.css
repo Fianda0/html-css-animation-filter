@@ -76,3 +76,32 @@
     border-radius: 10%;
     transform: scale(0.5);
 }
+
+.ex-10-icon {
+    animation: rotate10 2s linear infinite;
+}
+
+@keyframes rotate10 {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: rotate11 2s linear;
+}
+
+@keyframes rotate11 {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(0.75turn);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+
+}
